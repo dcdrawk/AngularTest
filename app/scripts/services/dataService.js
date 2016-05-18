@@ -7,7 +7,7 @@
 
     function dataService() {
 
-        var inventory = [
+        var cartItems = [
             {
                 name: 'Drywall',
                 productCode: 'dw-001',
@@ -36,7 +36,7 @@
         ];
 
         var service = {
-            inventory: inventory
+            cartItems: cartItems
         };
 
         return service;
