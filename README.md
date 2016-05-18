@@ -3,6 +3,7 @@
 
 # Installation
 `npm install`
+
 `bower install`
 
 # Start a local server
