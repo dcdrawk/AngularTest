@@ -8,15 +8,10 @@
  * Controller of the app
  */
 angular.module('app')
-    .controller('AboutCtrl', function ($scope, dataService) {
+    .controller('AboutCtrl', function ($scope) {
         $scope.awesomeThings = [
           'HTML5 Boilerplate',
           'AngularJS',
           'Karma'
         ];
-
-        $scope.inventory = dataService.inventory;
-
-        console.log($scope.inventory);
-
   });
