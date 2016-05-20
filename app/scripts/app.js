@@ -10,9 +10,7 @@
  */
 angular
   .module('app', [
-    'ngResource',
-    'ngRoute',
-    'ngSanitize'
+    'ngRoute'
   ])
   .config(function ($routeProvider) {
     $routeProvider
